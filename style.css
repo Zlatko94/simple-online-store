@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type='number'] {
+    width: 180px;
+    margin: 2px;
+}
+
+h3 {
+    color: purple;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+span {
+    color: grey;
+}
+
+#izracunaj, #reset {
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.razmak {
+    margin: 10px;
+}
+
+p {
+    margin: 5px 0;
+}

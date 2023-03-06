@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <h3>Odaberite cveće:</h3>
+            <div>
+                <input type="number" name="ruze" id="ruze" placeholder="Cena po cvetu je 150 din." min="0">
+                <label for="ruze"><b>Ruže</b></label>
+            </div>
+            <div>
+                <input type="number" name="ljiljani" id="ljiljani" placeholder="Cena po cvetu je 120 din." min="0">
+                <label for="ruze"><b>Ljiljani</b></label>
+            </div>
+            <div>
+                <input type="number" name="gerberi" id="gerberi" placeholder="Cena po cvetu je 70 din." min="0">
+                <label for="ruze"><b>Gerberi</b></label>
+            </div>    
+        </div>
+        <div>
+            <h3>Dodatni pokloni:</h3>
+            <div class="razmak">
+                <input type="checkbox" name="dpok" id="dpok1">
+                <label for="dpok"><b>Bombonjera</b></label>
+            </div>
+            <div class="razmak">    
+                <input type="checkbox" name="dpok" id="dpok2">
+                <label for="dpok"><b>Čokolada</b></label>
+            </div>
+            <div class="razmak">
+                <input type="checkbox" name="dpok" id="dpok3">
+                <label for="dpok"><b>Šampanjac</b></label>
+            </div>
+            <span>Cena po dodatnom poklonu je 500 din.</span>
+        </div>
+        <div>
+            <h3>Plaćanje:</h3>
+            <div class="razmak">
+                <input type="radio" name="placanje" id="kes">
+                <label for="placanje"><b>Keš</b></label>
+            </div>
+            <div class="razmak">
+                <input type="radio" name="placanje" id="kartica">
+                <label for="placanje"><b>Kartica</b></label>
+            </div>
+            <span>Plaćanjem putem platne kartice ostvarujete 20% popusta.</span>
+        </div>
+        <div>
+            <input type="button" value="Izračunaj" id="izracunaj">
+            <input type="reset" value="Resetuj" id="reset">
+        </div>
+        <div id="ispis"></div> 
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
